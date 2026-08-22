@@ -1,0 +1,1977 @@
+{
+  "auditLogs": [
+    {
+      "id": "aud-1787339598537-990",
+      "timestamp": "2026-08-21T19:13:18.537Z",
+      "domain": "Finance",
+      "description": "Evaluate commercial loan application for small business expansion credit facility.",
+      "aiRecommendation": "Reject loan application due to predicted default risk score exceeding cutoff threshold.",
+      "signals": {
+        "confidence": 96,
+        "uncertainty": 4,
+        "fairnessRisk": 85,
+        "potentialImpact": 90
+      },
+      "evaluation": {
+        "riskScore": 50,
+        "rawScore": 50.050000000000004,
+        "tier": "HUMAN_REVIEW",
+        "baseTier": "CAUTION",
+        "isOverride": true,
+        "triggers": [
+          {
+            "type": "HIGH_FAIRNESS_RISK",
+            "label": "High Fairness / Bias Risk",
+            "detail": "Fairness risk (85/100) >= 80 poses ethical/compliance risk requiring human oversight."
+          }
+        ],
+        "summary": "High AI confidence does not guarantee a safe decision. Significant fairness and impact risks require human oversight.",
+        "formulaBreakdown": {
+          "confidenceRisk": 4,
+          "uncertaintyContrib": 1.2,
+          "fairnessContrib": 21.25,
+          "impactContrib": 27,
+          "confidenceContrib": 0.6
+        },
+        "signals": {
+          "confidence": 96,
+          "uncertainty": 4,
+          "fairnessRisk": 85,
+          "potentialImpact": 90,
+          "confidenceRisk": 4
+        }
+      },
+      "humanReview": null
+    },
+    {
+      "id": "aud-1787337849303-702",
+      "timestamp": "2026-08-21T18:44:09.303Z",
+      "domain": "Finance",
+      "description": "Evaluate commercial loan application for small business credit line expansion.",
+      "aiRecommendation": "Reject loan application due to predicted default risk score exceeding cutoff threshold.",
+      "signals": {
+        "confidence": 96,
+        "uncertainty": 4,
+        "fairnessRisk": 85,
+        "potentialImpact": 90
+      },
+      "evaluation": {
+        "riskScore": 50,
+        "rawScore": 50.050000000000004,
+        "tier": "HUMAN_REVIEW",
+        "baseTier": "CAUTION",
+        "isOverride": true,
+        "triggers": [
+          {
+            "type": "HIGH_FAIRNESS_RISK",
+            "label": "High Fairness / Bias Risk",
+            "detail": "Fairness risk (85/100) >= 80 poses ethical/compliance risk requiring human oversight."
+          }
+        ],
+        "summary": "High AI confidence does not guarantee a safe decision. Significant fairness and impact risks require human oversight.",
+        "formulaBreakdown": {
+          "confidenceRisk": 4,
+          "uncertaintyContrib": 1.2,
+          "fairnessContrib": 21.25,
+          "impactContrib": 27,
+          "confidenceContrib": 0.6
+        },
+        "signals": {
+          "confidence": 96,
+          "uncertainty": 4,
+          "fairnessRisk": 85,
+          "potentialImpact": 90,
+          "confidenceRisk": 4
+        }
+      },
+      "humanReview": {
+        "status": "APPROVED",
+        "reviewer": "OFFICER-01 // GOVERNANCE AUTHORIZATION",
+        "notes": "Loan approved manually after reviewing background.",
+        "timestamp": "2026-08-21T18:45:09.776Z"
+      }
+    },
+    {
+      "id": "aud-1787337815390-647",
+      "timestamp": "2026-08-21T18:43:35.390Z",
+      "domain": "Finance",
+      "description": "Evaluate commercial loan application for small business credit line expansion.",
+      "aiRecommendation": "Reject loan application due to predicted default risk score exceeding cutoff threshold.",
+      "signals": {
+        "confidence": 96,
+        "uncertainty": 4,
+        "fairnessRisk": 85,
+        "potentialImpact": 90
+      },
+      "evaluation": {
+        "riskScore": 50,
+        "rawScore": 50.050000000000004,
+        "tier": "HUMAN_REVIEW",
+        "baseTier": "CAUTION",
+        "isOverride": true,
+        "triggers": [
+          {
+            "type": "HIGH_FAIRNESS_RISK",
+            "label": "High Fairness / Bias Risk",
+            "detail": "Fairness risk (85/100) >= 80 poses ethical/compliance risk requiring human oversight."
+          }
+        ],
+        "summary": "High AI confidence does not guarantee a safe decision. Significant fairness and impact risks require human oversight.",
+        "formulaBreakdown": {
+          "confidenceRisk": 4,
+          "uncertaintyContrib": 1.2,
+          "fairnessContrib": 21.25,
+          "impactContrib": 27,
+          "confidenceContrib": 0.6
+        },
+        "signals": {
+          "confidence": 96,
+          "uncertainty": 4,
+          "fairnessRisk": 85,
+          "potentialImpact": 90,
+          "confidenceRisk": 4
+        }
+      },
+      "humanReview": null
+    },
+    {
+      "id": "aud-1787337792273-123",
+      "timestamp": "2026-08-21T18:43:12.273Z",
+      "domain": "Finance",
+      "description": "Evaluate commercial loan application for small business credit line expansion.",
+      "aiRecommendation": "Reject loan application due to predicted default risk score exceeding cutoff threshold.",
+      "signals": {
+        "confidence": 96,
+        "uncertainty": 4,
+        "fairnessRisk": 85,
+        "potentialImpact": 90
+      },
+      "evaluation": {
+        "riskScore": 50,
+        "rawScore": 50.050000000000004,
+        "tier": "HUMAN_REVIEW",
+        "baseTier": "CAUTION",
+        "isOverride": true,
+        "triggers": [
+          {
+            "type": "HIGH_FAIRNESS_RISK",
+            "label": "High Fairness / Bias Risk",
+            "detail": "Fairness risk (85/100) >= 80 poses ethical/compliance risk requiring human oversight."
+          }
+        ],
+        "summary": "High AI confidence does not guarantee a safe decision. Significant fairness and impact risks require human oversight.",
+        "formulaBreakdown": {
+          "confidenceRisk": 4,
+          "uncertaintyContrib": 1.2,
+          "fairnessContrib": 21.25,
+          "impactContrib": 27,
+          "confidenceContrib": 0.6
+        },
+        "signals": {
+          "confidence": 96,
+          "uncertainty": 4,
+          "fairnessRisk": 85,
+          "potentialImpact": 90,
+          "confidenceRisk": 4
+        }
+      },
+      "humanReview": null
+    },
+    {
+      "id": "aud-1787336710410-888",
+      "timestamp": "2026-08-21T18:25:10.410Z",
+      "domain": "Finance",
+      "description": "Evaluate commercial loan application for small business credit line expansion.",
+      "aiRecommendation": "Reject loan application due to predicted default risk score exceeding cutoff threshold.",
+      "signals": {
+        "confidence": 96,
+        "uncertainty": 4,
+        "fairnessRisk": 85,
+        "potentialImpact": 90
+      },
+      "evaluation": {
+        "riskScore": 50,
+        "rawScore": 50.050000000000004,
+        "tier": "HUMAN_REVIEW",
+        "baseTier": "CAUTION",
+        "isOverride": true,
+        "triggers": [
+          {
+            "type": "HIGH_FAIRNESS_RISK",
+            "label": "High Fairness / Bias Risk",
+            "detail": "Fairness risk (85/100) >= 80 poses ethical/compliance risk requiring human oversight."
+          }
+        ],
+        "summary": "High AI confidence does not guarantee a safe decision. Significant fairness and impact risks require human oversight.",
+        "formulaBreakdown": {
+          "confidenceRisk": 4,
+          "uncertaintyContrib": 1.2,
+          "fairnessContrib": 21.25,
+          "impactContrib": 27,
+          "confidenceContrib": 0.6
+        },
+        "signals": {
+          "confidence": 96,
+          "uncertainty": 4,
+          "fairnessRisk": 85,
+          "potentialImpact": 90,
+          "confidenceRisk": 4
+        }
+      },
+      "humanReview": null
+    },
+    {
+      "id": "aud-1787336662685-333",
+      "timestamp": "2026-08-21T18:24:22.685Z",
+      "domain": "Finance",
+      "description": "Evaluate commercial loan application for small business credit line expansion.",
+      "aiRecommendation": "Reject loan application due to predicted default risk score exceeding cutoff threshold.",
+      "signals": {
+        "confidence": 96,
+        "uncertainty": 4,
+        "fairnessRisk": 85,
+        "potentialImpact": 90
+      },
+      "evaluation": {
+        "riskScore": 50,
+        "rawScore": 50.050000000000004,
+        "tier": "HUMAN_REVIEW",
+        "baseTier": "CAUTION",
+        "isOverride": true,
+        "triggers": [
+          {
+            "type": "HIGH_FAIRNESS_RISK",
+            "label": "High Fairness / Bias Risk",
+            "detail": "Fairness risk (85/100) >= 80 poses ethical/compliance risk requiring human oversight."
+          }
+        ],
+        "summary": "High AI confidence does not guarantee a safe decision. Significant fairness and impact risks require human oversight.",
+        "formulaBreakdown": {
+          "confidenceRisk": 4,
+          "uncertaintyContrib": 1.2,
+          "fairnessContrib": 21.25,
+          "impactContrib": 27,
+          "confidenceContrib": 0.6
+        },
+        "signals": {
+          "confidence": 96,
+          "uncertainty": 4,
+          "fairnessRisk": 85,
+          "potentialImpact": 90,
+          "confidenceRisk": 4
+        }
+      },
+      "humanReview": null
+    },
+    {
+      "id": "aud-1787336650716-247",
+      "timestamp": "2026-08-21T18:24:10.716Z",
+      "domain": "Finance",
+      "description": "Evaluate commercial loan application for small business credit line expansion.",
+      "aiRecommendation": "Reject loan application due to predicted default risk score exceeding cutoff threshold.",
+      "signals": {
+        "confidence": 96,
+        "uncertainty": 4,
+        "fairnessRisk": 85,
+        "potentialImpact": 90
+      },
+      "evaluation": {
+        "riskScore": 50,
+        "rawScore": 50.050000000000004,
+        "tier": "HUMAN_REVIEW",
+        "baseTier": "CAUTION",
+        "isOverride": true,
+        "triggers": [
+          {
+            "type": "HIGH_FAIRNESS_RISK",
+            "label": "High Fairness / Bias Risk",
+            "detail": "Fairness risk (85/100) >= 80 poses ethical/compliance risk requiring human oversight."
+          }
+        ],
+        "summary": "High AI confidence does not guarantee a safe decision. Significant fairness and impact risks require human oversight.",
+        "formulaBreakdown": {
+          "confidenceRisk": 4,
+          "uncertaintyContrib": 1.2,
+          "fairnessContrib": 21.25,
+          "impactContrib": 27,
+          "confidenceContrib": 0.6
+        },
+        "signals": {
+          "confidence": 96,
+          "uncertainty": 4,
+          "fairnessRisk": 85,
+          "potentialImpact": 90,
+          "confidenceRisk": 4
+        }
+      },
+      "humanReview": null
+    },
+    {
+      "id": "aud-1787336450636-839",
+      "timestamp": "2026-08-21T18:20:50.636Z",
+      "domain": "Finance",
+      "description": "Evaluate commercial loan application for small business credit line expansion.",
+      "aiRecommendation": "Reject loan application due to predicted default risk score exceeding cutoff threshold.",
+      "signals": {
+        "confidence": 96,
+        "uncertainty": 4,
+        "fairnessRisk": 85,
+        "potentialImpact": 90
+      },
+      "evaluation": {
+        "riskScore": 50,
+        "rawScore": 50.050000000000004,
+        "tier": "HUMAN_REVIEW",
+        "baseTier": "CAUTION",
+        "isOverride": true,
+        "triggers": [
+          {
+            "type": "HIGH_FAIRNESS_RISK",
+            "label": "High Fairness / Bias Risk",
+            "detail": "Fairness risk (85/100) >= 80 poses ethical/compliance risk requiring human oversight."
+          }
+        ],
+        "summary": "High AI confidence does not guarantee a safe decision. Significant fairness and impact risks require human oversight.",
+        "formulaBreakdown": {
+          "confidenceRisk": 4,
+          "uncertaintyContrib": 1.2,
+          "fairnessContrib": 21.25,
+          "impactContrib": 27,
+          "confidenceContrib": 0.6
+        },
+        "signals": {
+          "confidence": 96,
+          "uncertainty": 4,
+          "fairnessRisk": 85,
+          "potentialImpact": 90,
+          "confidenceRisk": 4
+        }
+      },
+      "humanReview": null
+    },
+    {
+      "id": "aud-1787335636549-691",
+      "timestamp": "2026-08-21T18:07:16.549Z",
+      "domain": "Finance",
+      "description": "Evaluate commercial loan application for small business credit line expansion.",
+      "aiRecommendation": "Reject loan application due to predicted default risk score exceeding cutoff threshold.",
+      "signals": {
+        "confidence": 96,
+        "uncertainty": 4,
+        "fairnessRisk": 85,
+        "potentialImpact": 90
+      },
+      "evaluation": {
+        "riskScore": 50,
+        "rawScore": 50.050000000000004,
+        "tier": "HUMAN_REVIEW",
+        "baseTier": "CAUTION",
+        "isOverride": true,
+        "triggers": [
+          {
+            "type": "HIGH_FAIRNESS_RISK",
+            "label": "High Fairness / Bias Risk",
+            "detail": "Fairness risk (85/100) >= 80 poses ethical/compliance risk requiring human oversight."
+          }
+        ],
+        "summary": "High AI confidence does not guarantee a safe decision. Significant fairness and impact risks require human oversight.",
+        "formulaBreakdown": {
+          "confidenceRisk": 4,
+          "uncertaintyContrib": 1.2,
+          "fairnessContrib": 21.25,
+          "impactContrib": 27,
+          "confidenceContrib": 0.6
+        },
+        "signals": {
+          "confidence": 96,
+          "uncertainty": 4,
+          "fairnessRisk": 85,
+          "potentialImpact": 90,
+          "confidenceRisk": 4
+        }
+      },
+      "humanReview": null
+    },
+    {
+      "id": "aud-1787334880588-780",
+      "timestamp": "2026-08-21T17:54:40.588Z",
+      "domain": "Finance",
+      "description": "Evaluate commercial loan application for small business credit line expansion.",
+      "aiRecommendation": "Reject loan application due to predicted default risk score exceeding cutoff threshold.",
+      "signals": {
+        "confidence": 96,
+        "uncertainty": 4,
+        "fairnessRisk": 85,
+        "potentialImpact": 90
+      },
+      "evaluation": {
+        "riskScore": 50,
+        "rawScore": 50.050000000000004,
+        "tier": "HUMAN_REVIEW",
+        "baseTier": "CAUTION",
+        "isOverride": true,
+        "triggers": [
+          {
+            "type": "HIGH_FAIRNESS_RISK",
+            "label": "High Fairness / Bias Risk",
+            "detail": "Fairness risk (85/100) >= 80 poses ethical/compliance risk requiring human oversight."
+          }
+        ],
+        "summary": "High AI confidence does not guarantee a safe decision. Significant fairness and impact risks require human oversight.",
+        "formulaBreakdown": {
+          "confidenceRisk": 4,
+          "uncertaintyContrib": 1.2,
+          "fairnessContrib": 21.25,
+          "impactContrib": 27,
+          "confidenceContrib": 0.6
+        },
+        "signals": {
+          "confidence": 96,
+          "uncertainty": 4,
+          "fairnessRisk": 85,
+          "potentialImpact": 90,
+          "confidenceRisk": 4
+        }
+      },
+      "humanReview": null
+    },
+    {
+      "id": "aud-1787334880586-72",
+      "timestamp": "2026-08-21T17:54:40.586Z",
+      "domain": "Finance",
+      "description": "Evaluate commercial loan application for small business credit line expansion.",
+      "aiRecommendation": "Reject loan application due to predicted default risk score exceeding cutoff threshold.",
+      "signals": {
+        "confidence": 96,
+        "uncertainty": 4,
+        "fairnessRisk": 85,
+        "potentialImpact": 90
+      },
+      "evaluation": {
+        "riskScore": 50,
+        "rawScore": 50.050000000000004,
+        "tier": "HUMAN_REVIEW",
+        "baseTier": "CAUTION",
+        "isOverride": true,
+        "triggers": [
+          {
+            "type": "HIGH_FAIRNESS_RISK",
+            "label": "High Fairness / Bias Risk",
+            "detail": "Fairness risk (85/100) >= 80 poses ethical/compliance risk requiring human oversight."
+          }
+        ],
+        "summary": "High AI confidence does not guarantee a safe decision. Significant fairness and impact risks require human oversight.",
+        "formulaBreakdown": {
+          "confidenceRisk": 4,
+          "uncertaintyContrib": 1.2,
+          "fairnessContrib": 21.25,
+          "impactContrib": 27,
+          "confidenceContrib": 0.6
+        },
+        "signals": {
+          "confidence": 96,
+          "uncertainty": 4,
+          "fairnessRisk": 85,
+          "potentialImpact": 90,
+          "confidenceRisk": 4
+        }
+      },
+      "humanReview": null
+    },
+    {
+      "id": "aud-1787334878900-152",
+      "timestamp": "2026-08-21T17:54:38.900Z",
+      "domain": "Finance",
+      "description": "Evaluate commercial loan application for small business credit line expansion.",
+      "aiRecommendation": "Reject loan application due to predicted default risk score exceeding cutoff threshold.",
+      "signals": {
+        "confidence": 96,
+        "uncertainty": 4,
+        "fairnessRisk": 85,
+        "potentialImpact": 90
+      },
+      "evaluation": {
+        "riskScore": 50,
+        "rawScore": 50.050000000000004,
+        "tier": "HUMAN_REVIEW",
+        "baseTier": "CAUTION",
+        "isOverride": true,
+        "triggers": [
+          {
+            "type": "HIGH_FAIRNESS_RISK",
+            "label": "High Fairness / Bias Risk",
+            "detail": "Fairness risk (85/100) >= 80 poses ethical/compliance risk requiring human oversight."
+          }
+        ],
+        "summary": "High AI confidence does not guarantee a safe decision. Significant fairness and impact risks require human oversight.",
+        "formulaBreakdown": {
+          "confidenceRisk": 4,
+          "uncertaintyContrib": 1.2,
+          "fairnessContrib": 21.25,
+          "impactContrib": 27,
+          "confidenceContrib": 0.6
+        },
+        "signals": {
+          "confidence": 96,
+          "uncertainty": 4,
+          "fairnessRisk": 85,
+          "potentialImpact": 90,
+          "confidenceRisk": 4
+        }
+      },
+      "humanReview": null
+    },
+    {
+      "id": "aud-1787334878895-883",
+      "timestamp": "2026-08-21T17:54:38.895Z",
+      "domain": "Finance",
+      "description": "Evaluate commercial loan application for small business credit line expansion.",
+      "aiRecommendation": "Reject loan application due to predicted default risk score exceeding cutoff threshold.",
+      "signals": {
+        "confidence": 96,
+        "uncertainty": 4,
+        "fairnessRisk": 85,
+        "potentialImpact": 90
+      },
+      "evaluation": {
+        "riskScore": 50,
+        "rawScore": 50.050000000000004,
+        "tier": "HUMAN_REVIEW",
+        "baseTier": "CAUTION",
+        "isOverride": true,
+        "triggers": [
+          {
+            "type": "HIGH_FAIRNESS_RISK",
+            "label": "High Fairness / Bias Risk",
+            "detail": "Fairness risk (85/100) >= 80 poses ethical/compliance risk requiring human oversight."
+          }
+        ],
+        "summary": "High AI confidence does not guarantee a safe decision. Significant fairness and impact risks require human oversight.",
+        "formulaBreakdown": {
+          "confidenceRisk": 4,
+          "uncertaintyContrib": 1.2,
+          "fairnessContrib": 21.25,
+          "impactContrib": 27,
+          "confidenceContrib": 0.6
+        },
+        "signals": {
+          "confidence": 96,
+          "uncertainty": 4,
+          "fairnessRisk": 85,
+          "potentialImpact": 90,
+          "confidenceRisk": 4
+        }
+      },
+      "humanReview": null
+    },
+    {
+      "id": "aud-1787334878001-114",
+      "timestamp": "2026-08-21T17:54:38.001Z",
+      "domain": "Finance",
+      "description": "Evaluate commercial loan application for small business credit line expansion.",
+      "aiRecommendation": "Reject loan application due to predicted default risk score exceeding cutoff threshold.",
+      "signals": {
+        "confidence": 96,
+        "uncertainty": 4,
+        "fairnessRisk": 85,
+        "potentialImpact": 90
+      },
+      "evaluation": {
+        "riskScore": 50,
+        "rawScore": 50.050000000000004,
+        "tier": "HUMAN_REVIEW",
+        "baseTier": "CAUTION",
+        "isOverride": true,
+        "triggers": [
+          {
+            "type": "HIGH_FAIRNESS_RISK",
+            "label": "High Fairness / Bias Risk",
+            "detail": "Fairness risk (85/100) >= 80 poses ethical/compliance risk requiring human oversight."
+          }
+        ],
+        "summary": "High AI confidence does not guarantee a safe decision. Significant fairness and impact risks require human oversight.",
+        "formulaBreakdown": {
+          "confidenceRisk": 4,
+          "uncertaintyContrib": 1.2,
+          "fairnessContrib": 21.25,
+          "impactContrib": 27,
+          "confidenceContrib": 0.6
+        },
+        "signals": {
+          "confidence": 96,
+          "uncertainty": 4,
+          "fairnessRisk": 85,
+          "potentialImpact": 90,
+          "confidenceRisk": 4
+        }
+      },
+      "humanReview": null
+    },
+    {
+      "id": "aud-1787334877998-789",
+      "timestamp": "2026-08-21T17:54:37.998Z",
+      "domain": "Finance",
+      "description": "Evaluate commercial loan application for small business credit line expansion.",
+      "aiRecommendation": "Reject loan application due to predicted default risk score exceeding cutoff threshold.",
+      "signals": {
+        "confidence": 96,
+        "uncertainty": 4,
+        "fairnessRisk": 85,
+        "potentialImpact": 90
+      },
+      "evaluation": {
+        "riskScore": 50,
+        "rawScore": 50.050000000000004,
+        "tier": "HUMAN_REVIEW",
+        "baseTier": "CAUTION",
+        "isOverride": true,
+        "triggers": [
+          {
+            "type": "HIGH_FAIRNESS_RISK",
+            "label": "High Fairness / Bias Risk",
+            "detail": "Fairness risk (85/100) >= 80 poses ethical/compliance risk requiring human oversight."
+          }
+        ],
+        "summary": "High AI confidence does not guarantee a safe decision. Significant fairness and impact risks require human oversight.",
+        "formulaBreakdown": {
+          "confidenceRisk": 4,
+          "uncertaintyContrib": 1.2,
+          "fairnessContrib": 21.25,
+          "impactContrib": 27,
+          "confidenceContrib": 0.6
+        },
+        "signals": {
+          "confidence": 96,
+          "uncertainty": 4,
+          "fairnessRisk": 85,
+          "potentialImpact": 90,
+          "confidenceRisk": 4
+        }
+      },
+      "humanReview": null
+    },
+    {
+      "id": "aud-1787334876893-859",
+      "timestamp": "2026-08-21T17:54:36.893Z",
+      "domain": "Finance",
+      "description": "Evaluate commercial loan application for small business credit line expansion.",
+      "aiRecommendation": "Reject loan application due to predicted default risk score exceeding cutoff threshold.",
+      "signals": {
+        "confidence": 96,
+        "uncertainty": 4,
+        "fairnessRisk": 85,
+        "potentialImpact": 90
+      },
+      "evaluation": {
+        "riskScore": 50,
+        "rawScore": 50.050000000000004,
+        "tier": "HUMAN_REVIEW",
+        "baseTier": "CAUTION",
+        "isOverride": true,
+        "triggers": [
+          {
+            "type": "HIGH_FAIRNESS_RISK",
+            "label": "High Fairness / Bias Risk",
+            "detail": "Fairness risk (85/100) >= 80 poses ethical/compliance risk requiring human oversight."
+          }
+        ],
+        "summary": "High AI confidence does not guarantee a safe decision. Significant fairness and impact risks require human oversight.",
+        "formulaBreakdown": {
+          "confidenceRisk": 4,
+          "uncertaintyContrib": 1.2,
+          "fairnessContrib": 21.25,
+          "impactContrib": 27,
+          "confidenceContrib": 0.6
+        },
+        "signals": {
+          "confidence": 96,
+          "uncertainty": 4,
+          "fairnessRisk": 85,
+          "potentialImpact": 90,
+          "confidenceRisk": 4
+        }
+      },
+      "humanReview": null
+    },
+    {
+      "id": "aud-1787334876891-408",
+      "timestamp": "2026-08-21T17:54:36.891Z",
+      "domain": "Finance",
+      "description": "Evaluate commercial loan application for small business credit line expansion.",
+      "aiRecommendation": "Reject loan application due to predicted default risk score exceeding cutoff threshold.",
+      "signals": {
+        "confidence": 96,
+        "uncertainty": 4,
+        "fairnessRisk": 85,
+        "potentialImpact": 90
+      },
+      "evaluation": {
+        "riskScore": 50,
+        "rawScore": 50.050000000000004,
+        "tier": "HUMAN_REVIEW",
+        "baseTier": "CAUTION",
+        "isOverride": true,
+        "triggers": [
+          {
+            "type": "HIGH_FAIRNESS_RISK",
+            "label": "High Fairness / Bias Risk",
+            "detail": "Fairness risk (85/100) >= 80 poses ethical/compliance risk requiring human oversight."
+          }
+        ],
+        "summary": "High AI confidence does not guarantee a safe decision. Significant fairness and impact risks require human oversight.",
+        "formulaBreakdown": {
+          "confidenceRisk": 4,
+          "uncertaintyContrib": 1.2,
+          "fairnessContrib": 21.25,
+          "impactContrib": 27,
+          "confidenceContrib": 0.6
+        },
+        "signals": {
+          "confidence": 96,
+          "uncertainty": 4,
+          "fairnessRisk": 85,
+          "potentialImpact": 90,
+          "confidenceRisk": 4
+        }
+      },
+      "humanReview": null
+    },
+    {
+      "id": "aud-1787334874727-466",
+      "timestamp": "2026-08-21T17:54:34.727Z",
+      "domain": "Finance",
+      "description": "Evaluate commercial loan application for small business credit line expansion.",
+      "aiRecommendation": "Reject loan application due to predicted default risk score exceeding cutoff threshold.",
+      "signals": {
+        "confidence": 96,
+        "uncertainty": 4,
+        "fairnessRisk": 85,
+        "potentialImpact": 90
+      },
+      "evaluation": {
+        "riskScore": 50,
+        "rawScore": 50.050000000000004,
+        "tier": "HUMAN_REVIEW",
+        "baseTier": "CAUTION",
+        "isOverride": true,
+        "triggers": [
+          {
+            "type": "HIGH_FAIRNESS_RISK",
+            "label": "High Fairness / Bias Risk",
+            "detail": "Fairness risk (85/100) >= 80 poses ethical/compliance risk requiring human oversight."
+          }
+        ],
+        "summary": "High AI confidence does not guarantee a safe decision. Significant fairness and impact risks require human oversight.",
+        "formulaBreakdown": {
+          "confidenceRisk": 4,
+          "uncertaintyContrib": 1.2,
+          "fairnessContrib": 21.25,
+          "impactContrib": 27,
+          "confidenceContrib": 0.6
+        },
+        "signals": {
+          "confidence": 96,
+          "uncertainty": 4,
+          "fairnessRisk": 85,
+          "potentialImpact": 90,
+          "confidenceRisk": 4
+        }
+      },
+      "humanReview": null
+    },
+    {
+      "id": "aud-1787334874722-463",
+      "timestamp": "2026-08-21T17:54:34.722Z",
+      "domain": "Finance",
+      "description": "Evaluate commercial loan application for small business credit line expansion.",
+      "aiRecommendation": "Reject loan application due to predicted default risk score exceeding cutoff threshold.",
+      "signals": {
+        "confidence": 96,
+        "uncertainty": 4,
+        "fairnessRisk": 85,
+        "potentialImpact": 90
+      },
+      "evaluation": {
+        "riskScore": 50,
+        "rawScore": 50.050000000000004,
+        "tier": "HUMAN_REVIEW",
+        "baseTier": "CAUTION",
+        "isOverride": true,
+        "triggers": [
+          {
+            "type": "HIGH_FAIRNESS_RISK",
+            "label": "High Fairness / Bias Risk",
+            "detail": "Fairness risk (85/100) >= 80 poses ethical/compliance risk requiring human oversight."
+          }
+        ],
+        "summary": "High AI confidence does not guarantee a safe decision. Significant fairness and impact risks require human oversight.",
+        "formulaBreakdown": {
+          "confidenceRisk": 4,
+          "uncertaintyContrib": 1.2,
+          "fairnessContrib": 21.25,
+          "impactContrib": 27,
+          "confidenceContrib": 0.6
+        },
+        "signals": {
+          "confidence": 96,
+          "uncertainty": 4,
+          "fairnessRisk": 85,
+          "potentialImpact": 90,
+          "confidenceRisk": 4
+        }
+      },
+      "humanReview": null
+    },
+    {
+      "id": "aud-1787334856165-800",
+      "timestamp": "2026-08-21T17:54:16.165Z",
+      "domain": "Finance",
+      "description": "Evaluate commercial loan application for small business credit line expansion.",
+      "aiRecommendation": "Reject loan application due to predicted default risk score exceeding cutoff threshold.",
+      "signals": {
+        "confidence": 96,
+        "uncertainty": 4,
+        "fairnessRisk": 85,
+        "potentialImpact": 90
+      },
+      "evaluation": {
+        "riskScore": 50,
+        "rawScore": 50.050000000000004,
+        "tier": "HUMAN_REVIEW",
+        "baseTier": "CAUTION",
+        "isOverride": true,
+        "triggers": [
+          {
+            "type": "HIGH_FAIRNESS_RISK",
+            "label": "High Fairness / Bias Risk",
+            "detail": "Fairness risk (85/100) >= 80 poses ethical/compliance risk requiring human oversight."
+          }
+        ],
+        "summary": "High AI confidence does not guarantee a safe decision. Significant fairness and impact risks require human oversight.",
+        "formulaBreakdown": {
+          "confidenceRisk": 4,
+          "uncertaintyContrib": 1.2,
+          "fairnessContrib": 21.25,
+          "impactContrib": 27,
+          "confidenceContrib": 0.6
+        },
+        "signals": {
+          "confidence": 96,
+          "uncertainty": 4,
+          "fairnessRisk": 85,
+          "potentialImpact": 90,
+          "confidenceRisk": 4
+        }
+      },
+      "humanReview": null
+    },
+    {
+      "id": "aud-1787334856163-601",
+      "timestamp": "2026-08-21T17:54:16.163Z",
+      "domain": "Finance",
+      "description": "Evaluate commercial loan application for small business credit line expansion.",
+      "aiRecommendation": "Reject loan application due to predicted default risk score exceeding cutoff threshold.",
+      "signals": {
+        "confidence": 96,
+        "uncertainty": 4,
+        "fairnessRisk": 85,
+        "potentialImpact": 90
+      },
+      "evaluation": {
+        "riskScore": 50,
+        "rawScore": 50.050000000000004,
+        "tier": "HUMAN_REVIEW",
+        "baseTier": "CAUTION",
+        "isOverride": true,
+        "triggers": [
+          {
+            "type": "HIGH_FAIRNESS_RISK",
+            "label": "High Fairness / Bias Risk",
+            "detail": "Fairness risk (85/100) >= 80 poses ethical/compliance risk requiring human oversight."
+          }
+        ],
+        "summary": "High AI confidence does not guarantee a safe decision. Significant fairness and impact risks require human oversight.",
+        "formulaBreakdown": {
+          "confidenceRisk": 4,
+          "uncertaintyContrib": 1.2,
+          "fairnessContrib": 21.25,
+          "impactContrib": 27,
+          "confidenceContrib": 0.6
+        },
+        "signals": {
+          "confidence": 96,
+          "uncertainty": 4,
+          "fairnessRisk": 85,
+          "potentialImpact": 90,
+          "confidenceRisk": 4
+        }
+      },
+      "humanReview": null
+    },
+    {
+      "id": "aud-1787334855403-472",
+      "timestamp": "2026-08-21T17:54:15.403Z",
+      "domain": "Finance",
+      "description": "Evaluate commercial loan application for small business credit line expansion.",
+      "aiRecommendation": "Reject loan application due to predicted default risk score exceeding cutoff threshold.",
+      "signals": {
+        "confidence": 96,
+        "uncertainty": 4,
+        "fairnessRisk": 85,
+        "potentialImpact": 90
+      },
+      "evaluation": {
+        "riskScore": 50,
+        "rawScore": 50.050000000000004,
+        "tier": "HUMAN_REVIEW",
+        "baseTier": "CAUTION",
+        "isOverride": true,
+        "triggers": [
+          {
+            "type": "HIGH_FAIRNESS_RISK",
+            "label": "High Fairness / Bias Risk",
+            "detail": "Fairness risk (85/100) >= 80 poses ethical/compliance risk requiring human oversight."
+          }
+        ],
+        "summary": "High AI confidence does not guarantee a safe decision. Significant fairness and impact risks require human oversight.",
+        "formulaBreakdown": {
+          "confidenceRisk": 4,
+          "uncertaintyContrib": 1.2,
+          "fairnessContrib": 21.25,
+          "impactContrib": 27,
+          "confidenceContrib": 0.6
+        },
+        "signals": {
+          "confidence": 96,
+          "uncertainty": 4,
+          "fairnessRisk": 85,
+          "potentialImpact": 90,
+          "confidenceRisk": 4
+        }
+      },
+      "humanReview": null
+    },
+    {
+      "id": "aud-1787334855401-200",
+      "timestamp": "2026-08-21T17:54:15.401Z",
+      "domain": "Finance",
+      "description": "Evaluate commercial loan application for small business credit line expansion.",
+      "aiRecommendation": "Reject loan application due to predicted default risk score exceeding cutoff threshold.",
+      "signals": {
+        "confidence": 96,
+        "uncertainty": 4,
+        "fairnessRisk": 85,
+        "potentialImpact": 90
+      },
+      "evaluation": {
+        "riskScore": 50,
+        "rawScore": 50.050000000000004,
+        "tier": "HUMAN_REVIEW",
+        "baseTier": "CAUTION",
+        "isOverride": true,
+        "triggers": [
+          {
+            "type": "HIGH_FAIRNESS_RISK",
+            "label": "High Fairness / Bias Risk",
+            "detail": "Fairness risk (85/100) >= 80 poses ethical/compliance risk requiring human oversight."
+          }
+        ],
+        "summary": "High AI confidence does not guarantee a safe decision. Significant fairness and impact risks require human oversight.",
+        "formulaBreakdown": {
+          "confidenceRisk": 4,
+          "uncertaintyContrib": 1.2,
+          "fairnessContrib": 21.25,
+          "impactContrib": 27,
+          "confidenceContrib": 0.6
+        },
+        "signals": {
+          "confidence": 96,
+          "uncertainty": 4,
+          "fairnessRisk": 85,
+          "potentialImpact": 90,
+          "confidenceRisk": 4
+        }
+      },
+      "humanReview": null
+    },
+    {
+      "id": "aud-1787334854316-678",
+      "timestamp": "2026-08-21T17:54:14.316Z",
+      "domain": "Finance",
+      "description": "Evaluate commercial loan application for small business credit line expansion.",
+      "aiRecommendation": "Reject loan application due to predicted default risk score exceeding cutoff threshold.",
+      "signals": {
+        "confidence": 96,
+        "uncertainty": 4,
+        "fairnessRisk": 85,
+        "potentialImpact": 90
+      },
+      "evaluation": {
+        "riskScore": 50,
+        "rawScore": 50.050000000000004,
+        "tier": "HUMAN_REVIEW",
+        "baseTier": "CAUTION",
+        "isOverride": true,
+        "triggers": [
+          {
+            "type": "HIGH_FAIRNESS_RISK",
+            "label": "High Fairness / Bias Risk",
+            "detail": "Fairness risk (85/100) >= 80 poses ethical/compliance risk requiring human oversight."
+          }
+        ],
+        "summary": "High AI confidence does not guarantee a safe decision. Significant fairness and impact risks require human oversight.",
+        "formulaBreakdown": {
+          "confidenceRisk": 4,
+          "uncertaintyContrib": 1.2,
+          "fairnessContrib": 21.25,
+          "impactContrib": 27,
+          "confidenceContrib": 0.6
+        },
+        "signals": {
+          "confidence": 96,
+          "uncertainty": 4,
+          "fairnessRisk": 85,
+          "potentialImpact": 90,
+          "confidenceRisk": 4
+        }
+      },
+      "humanReview": null
+    },
+    {
+      "id": "aud-1787334854314-896",
+      "timestamp": "2026-08-21T17:54:14.314Z",
+      "domain": "Finance",
+      "description": "Evaluate commercial loan application for small business credit line expansion.",
+      "aiRecommendation": "Reject loan application due to predicted default risk score exceeding cutoff threshold.",
+      "signals": {
+        "confidence": 96,
+        "uncertainty": 4,
+        "fairnessRisk": 85,
+        "potentialImpact": 90
+      },
+      "evaluation": {
+        "riskScore": 50,
+        "rawScore": 50.050000000000004,
+        "tier": "HUMAN_REVIEW",
+        "baseTier": "CAUTION",
+        "isOverride": true,
+        "triggers": [
+          {
+            "type": "HIGH_FAIRNESS_RISK",
+            "label": "High Fairness / Bias Risk",
+            "detail": "Fairness risk (85/100) >= 80 poses ethical/compliance risk requiring human oversight."
+          }
+        ],
+        "summary": "High AI confidence does not guarantee a safe decision. Significant fairness and impact risks require human oversight.",
+        "formulaBreakdown": {
+          "confidenceRisk": 4,
+          "uncertaintyContrib": 1.2,
+          "fairnessContrib": 21.25,
+          "impactContrib": 27,
+          "confidenceContrib": 0.6
+        },
+        "signals": {
+          "confidence": 96,
+          "uncertainty": 4,
+          "fairnessRisk": 85,
+          "potentialImpact": 90,
+          "confidenceRisk": 4
+        }
+      },
+      "humanReview": null
+    },
+    {
+      "id": "aud-1787334779312-960",
+      "timestamp": "2026-08-21T17:52:59.312Z",
+      "domain": "Finance",
+      "description": "Evaluate commercial loan application for small business credit line expansion.",
+      "aiRecommendation": "Reject loan application due to predicted default risk score exceeding cutoff threshold.",
+      "signals": {
+        "confidence": 96,
+        "uncertainty": 4,
+        "fairnessRisk": 85,
+        "potentialImpact": 90
+      },
+      "evaluation": {
+        "riskScore": 50,
+        "rawScore": 50.050000000000004,
+        "tier": "HUMAN_REVIEW",
+        "baseTier": "CAUTION",
+        "isOverride": true,
+        "triggers": [
+          {
+            "type": "HIGH_FAIRNESS_RISK",
+            "label": "High Fairness / Bias Risk",
+            "detail": "Fairness risk (85/100) >= 80 poses ethical/compliance risk requiring human oversight."
+          }
+        ],
+        "summary": "High AI confidence does not guarantee a safe decision. Significant fairness and impact risks require human oversight.",
+        "formulaBreakdown": {
+          "confidenceRisk": 4,
+          "uncertaintyContrib": 1.2,
+          "fairnessContrib": 21.25,
+          "impactContrib": 27,
+          "confidenceContrib": 0.6
+        },
+        "signals": {
+          "confidence": 96,
+          "uncertainty": 4,
+          "fairnessRisk": 85,
+          "potentialImpact": 90,
+          "confidenceRisk": 4
+        }
+      },
+      "humanReview": null
+    },
+    {
+      "id": "aud-1787334779310-944",
+      "timestamp": "2026-08-21T17:52:59.310Z",
+      "domain": "Finance",
+      "description": "Evaluate commercial loan application for small business credit line expansion.",
+      "aiRecommendation": "Reject loan application due to predicted default risk score exceeding cutoff threshold.",
+      "signals": {
+        "confidence": 96,
+        "uncertainty": 4,
+        "fairnessRisk": 85,
+        "potentialImpact": 90
+      },
+      "evaluation": {
+        "riskScore": 50,
+        "rawScore": 50.050000000000004,
+        "tier": "HUMAN_REVIEW",
+        "baseTier": "CAUTION",
+        "isOverride": true,
+        "triggers": [
+          {
+            "type": "HIGH_FAIRNESS_RISK",
+            "label": "High Fairness / Bias Risk",
+            "detail": "Fairness risk (85/100) >= 80 poses ethical/compliance risk requiring human oversight."
+          }
+        ],
+        "summary": "High AI confidence does not guarantee a safe decision. Significant fairness and impact risks require human oversight.",
+        "formulaBreakdown": {
+          "confidenceRisk": 4,
+          "uncertaintyContrib": 1.2,
+          "fairnessContrib": 21.25,
+          "impactContrib": 27,
+          "confidenceContrib": 0.6
+        },
+        "signals": {
+          "confidence": 96,
+          "uncertainty": 4,
+          "fairnessRisk": 85,
+          "potentialImpact": 90,
+          "confidenceRisk": 4
+        }
+      },
+      "humanReview": null
+    },
+    {
+      "id": "aud-1787334778735-874",
+      "timestamp": "2026-08-21T17:52:58.735Z",
+      "domain": "Finance",
+      "description": "Evaluate commercial loan application for small business credit line expansion.",
+      "aiRecommendation": "Reject loan application due to predicted default risk score exceeding cutoff threshold.",
+      "signals": {
+        "confidence": 96,
+        "uncertainty": 4,
+        "fairnessRisk": 85,
+        "potentialImpact": 90
+      },
+      "evaluation": {
+        "riskScore": 50,
+        "rawScore": 50.050000000000004,
+        "tier": "HUMAN_REVIEW",
+        "baseTier": "CAUTION",
+        "isOverride": true,
+        "triggers": [
+          {
+            "type": "HIGH_FAIRNESS_RISK",
+            "label": "High Fairness / Bias Risk",
+            "detail": "Fairness risk (85/100) >= 80 poses ethical/compliance risk requiring human oversight."
+          }
+        ],
+        "summary": "High AI confidence does not guarantee a safe decision. Significant fairness and impact risks require human oversight.",
+        "formulaBreakdown": {
+          "confidenceRisk": 4,
+          "uncertaintyContrib": 1.2,
+          "fairnessContrib": 21.25,
+          "impactContrib": 27,
+          "confidenceContrib": 0.6
+        },
+        "signals": {
+          "confidence": 96,
+          "uncertainty": 4,
+          "fairnessRisk": 85,
+          "potentialImpact": 90,
+          "confidenceRisk": 4
+        }
+      },
+      "humanReview": null
+    },
+    {
+      "id": "aud-1787334778733-36",
+      "timestamp": "2026-08-21T17:52:58.733Z",
+      "domain": "Finance",
+      "description": "Evaluate commercial loan application for small business credit line expansion.",
+      "aiRecommendation": "Reject loan application due to predicted default risk score exceeding cutoff threshold.",
+      "signals": {
+        "confidence": 96,
+        "uncertainty": 4,
+        "fairnessRisk": 85,
+        "potentialImpact": 90
+      },
+      "evaluation": {
+        "riskScore": 50,
+        "rawScore": 50.050000000000004,
+        "tier": "HUMAN_REVIEW",
+        "baseTier": "CAUTION",
+        "isOverride": true,
+        "triggers": [
+          {
+            "type": "HIGH_FAIRNESS_RISK",
+            "label": "High Fairness / Bias Risk",
+            "detail": "Fairness risk (85/100) >= 80 poses ethical/compliance risk requiring human oversight."
+          }
+        ],
+        "summary": "High AI confidence does not guarantee a safe decision. Significant fairness and impact risks require human oversight.",
+        "formulaBreakdown": {
+          "confidenceRisk": 4,
+          "uncertaintyContrib": 1.2,
+          "fairnessContrib": 21.25,
+          "impactContrib": 27,
+          "confidenceContrib": 0.6
+        },
+        "signals": {
+          "confidence": 96,
+          "uncertainty": 4,
+          "fairnessRisk": 85,
+          "potentialImpact": 90,
+          "confidenceRisk": 4
+        }
+      },
+      "humanReview": null
+    },
+    {
+      "id": "aud-1787334778086-79",
+      "timestamp": "2026-08-21T17:52:58.086Z",
+      "domain": "Finance",
+      "description": "Evaluate commercial loan application for small business credit line expansion.",
+      "aiRecommendation": "Reject loan application due to predicted default risk score exceeding cutoff threshold.",
+      "signals": {
+        "confidence": 96,
+        "uncertainty": 4,
+        "fairnessRisk": 85,
+        "potentialImpact": 90
+      },
+      "evaluation": {
+        "riskScore": 50,
+        "rawScore": 50.050000000000004,
+        "tier": "HUMAN_REVIEW",
+        "baseTier": "CAUTION",
+        "isOverride": true,
+        "triggers": [
+          {
+            "type": "HIGH_FAIRNESS_RISK",
+            "label": "High Fairness / Bias Risk",
+            "detail": "Fairness risk (85/100) >= 80 poses ethical/compliance risk requiring human oversight."
+          }
+        ],
+        "summary": "High AI confidence does not guarantee a safe decision. Significant fairness and impact risks require human oversight.",
+        "formulaBreakdown": {
+          "confidenceRisk": 4,
+          "uncertaintyContrib": 1.2,
+          "fairnessContrib": 21.25,
+          "impactContrib": 27,
+          "confidenceContrib": 0.6
+        },
+        "signals": {
+          "confidence": 96,
+          "uncertainty": 4,
+          "fairnessRisk": 85,
+          "potentialImpact": 90,
+          "confidenceRisk": 4
+        }
+      },
+      "humanReview": null
+    },
+    {
+      "id": "aud-1787334778083-169",
+      "timestamp": "2026-08-21T17:52:58.083Z",
+      "domain": "Finance",
+      "description": "Evaluate commercial loan application for small business credit line expansion.",
+      "aiRecommendation": "Reject loan application due to predicted default risk score exceeding cutoff threshold.",
+      "signals": {
+        "confidence": 96,
+        "uncertainty": 4,
+        "fairnessRisk": 85,
+        "potentialImpact": 90
+      },
+      "evaluation": {
+        "riskScore": 50,
+        "rawScore": 50.050000000000004,
+        "tier": "HUMAN_REVIEW",
+        "baseTier": "CAUTION",
+        "isOverride": true,
+        "triggers": [
+          {
+            "type": "HIGH_FAIRNESS_RISK",
+            "label": "High Fairness / Bias Risk",
+            "detail": "Fairness risk (85/100) >= 80 poses ethical/compliance risk requiring human oversight."
+          }
+        ],
+        "summary": "High AI confidence does not guarantee a safe decision. Significant fairness and impact risks require human oversight.",
+        "formulaBreakdown": {
+          "confidenceRisk": 4,
+          "uncertaintyContrib": 1.2,
+          "fairnessContrib": 21.25,
+          "impactContrib": 27,
+          "confidenceContrib": 0.6
+        },
+        "signals": {
+          "confidence": 96,
+          "uncertainty": 4,
+          "fairnessRisk": 85,
+          "potentialImpact": 90,
+          "confidenceRisk": 4
+        }
+      },
+      "humanReview": null
+    },
+    {
+      "id": "aud-1787334777277-134",
+      "timestamp": "2026-08-21T17:52:57.277Z",
+      "domain": "Finance",
+      "description": "Evaluate commercial loan application for small business credit line expansion.",
+      "aiRecommendation": "Reject loan application due to predicted default risk score exceeding cutoff threshold.",
+      "signals": {
+        "confidence": 96,
+        "uncertainty": 4,
+        "fairnessRisk": 85,
+        "potentialImpact": 90
+      },
+      "evaluation": {
+        "riskScore": 50,
+        "rawScore": 50.050000000000004,
+        "tier": "HUMAN_REVIEW",
+        "baseTier": "CAUTION",
+        "isOverride": true,
+        "triggers": [
+          {
+            "type": "HIGH_FAIRNESS_RISK",
+            "label": "High Fairness / Bias Risk",
+            "detail": "Fairness risk (85/100) >= 80 poses ethical/compliance risk requiring human oversight."
+          }
+        ],
+        "summary": "High AI confidence does not guarantee a safe decision. Significant fairness and impact risks require human oversight.",
+        "formulaBreakdown": {
+          "confidenceRisk": 4,
+          "uncertaintyContrib": 1.2,
+          "fairnessContrib": 21.25,
+          "impactContrib": 27,
+          "confidenceContrib": 0.6
+        },
+        "signals": {
+          "confidence": 96,
+          "uncertainty": 4,
+          "fairnessRisk": 85,
+          "potentialImpact": 90,
+          "confidenceRisk": 4
+        }
+      },
+      "humanReview": null
+    },
+    {
+      "id": "aud-1787334777275-304",
+      "timestamp": "2026-08-21T17:52:57.275Z",
+      "domain": "Finance",
+      "description": "Evaluate commercial loan application for small business credit line expansion.",
+      "aiRecommendation": "Reject loan application due to predicted default risk score exceeding cutoff threshold.",
+      "signals": {
+        "confidence": 96,
+        "uncertainty": 4,
+        "fairnessRisk": 85,
+        "potentialImpact": 90
+      },
+      "evaluation": {
+        "riskScore": 50,
+        "rawScore": 50.050000000000004,
+        "tier": "HUMAN_REVIEW",
+        "baseTier": "CAUTION",
+        "isOverride": true,
+        "triggers": [
+          {
+            "type": "HIGH_FAIRNESS_RISK",
+            "label": "High Fairness / Bias Risk",
+            "detail": "Fairness risk (85/100) >= 80 poses ethical/compliance risk requiring human oversight."
+          }
+        ],
+        "summary": "High AI confidence does not guarantee a safe decision. Significant fairness and impact risks require human oversight.",
+        "formulaBreakdown": {
+          "confidenceRisk": 4,
+          "uncertaintyContrib": 1.2,
+          "fairnessContrib": 21.25,
+          "impactContrib": 27,
+          "confidenceContrib": 0.6
+        },
+        "signals": {
+          "confidence": 96,
+          "uncertainty": 4,
+          "fairnessRisk": 85,
+          "potentialImpact": 90,
+          "confidenceRisk": 4
+        }
+      },
+      "humanReview": null
+    },
+    {
+      "id": "aud-1787334775880-996",
+      "timestamp": "2026-08-21T17:52:55.880Z",
+      "domain": "Finance",
+      "description": "Evaluate commercial loan application for small business credit line expansion.",
+      "aiRecommendation": "Reject loan application due to predicted default risk score exceeding cutoff threshold.",
+      "signals": {
+        "confidence": 96,
+        "uncertainty": 4,
+        "fairnessRisk": 85,
+        "potentialImpact": 90
+      },
+      "evaluation": {
+        "riskScore": 50,
+        "rawScore": 50.050000000000004,
+        "tier": "HUMAN_REVIEW",
+        "baseTier": "CAUTION",
+        "isOverride": true,
+        "triggers": [
+          {
+            "type": "HIGH_FAIRNESS_RISK",
+            "label": "High Fairness / Bias Risk",
+            "detail": "Fairness risk (85/100) >= 80 poses ethical/compliance risk requiring human oversight."
+          }
+        ],
+        "summary": "High AI confidence does not guarantee a safe decision. Significant fairness and impact risks require human oversight.",
+        "formulaBreakdown": {
+          "confidenceRisk": 4,
+          "uncertaintyContrib": 1.2,
+          "fairnessContrib": 21.25,
+          "impactContrib": 27,
+          "confidenceContrib": 0.6
+        },
+        "signals": {
+          "confidence": 96,
+          "uncertainty": 4,
+          "fairnessRisk": 85,
+          "potentialImpact": 90,
+          "confidenceRisk": 4
+        }
+      },
+      "humanReview": null
+    },
+    {
+      "id": "aud-1787334775876-978",
+      "timestamp": "2026-08-21T17:52:55.876Z",
+      "domain": "Finance",
+      "description": "Evaluate commercial loan application for small business credit line expansion.",
+      "aiRecommendation": "Reject loan application due to predicted default risk score exceeding cutoff threshold.",
+      "signals": {
+        "confidence": 96,
+        "uncertainty": 4,
+        "fairnessRisk": 85,
+        "potentialImpact": 90
+      },
+      "evaluation": {
+        "riskScore": 50,
+        "rawScore": 50.050000000000004,
+        "tier": "HUMAN_REVIEW",
+        "baseTier": "CAUTION",
+        "isOverride": true,
+        "triggers": [
+          {
+            "type": "HIGH_FAIRNESS_RISK",
+            "label": "High Fairness / Bias Risk",
+            "detail": "Fairness risk (85/100) >= 80 poses ethical/compliance risk requiring human oversight."
+          }
+        ],
+        "summary": "High AI confidence does not guarantee a safe decision. Significant fairness and impact risks require human oversight.",
+        "formulaBreakdown": {
+          "confidenceRisk": 4,
+          "uncertaintyContrib": 1.2,
+          "fairnessContrib": 21.25,
+          "impactContrib": 27,
+          "confidenceContrib": 0.6
+        },
+        "signals": {
+          "confidence": 96,
+          "uncertainty": 4,
+          "fairnessRisk": 85,
+          "potentialImpact": 90,
+          "confidenceRisk": 4
+        }
+      },
+      "humanReview": null
+    },
+    {
+      "id": "aud-1787334767032-358",
+      "timestamp": "2026-08-21T17:52:47.032Z",
+      "domain": "Finance",
+      "description": "Evaluate commercial loan application for small business credit line expansion.",
+      "aiRecommendation": "Reject loan application due to predicted default risk score exceeding cutoff threshold.",
+      "signals": {
+        "confidence": 96,
+        "uncertainty": 4,
+        "fairnessRisk": 85,
+        "potentialImpact": 90
+      },
+      "evaluation": {
+        "riskScore": 50,
+        "rawScore": 50.050000000000004,
+        "tier": "HUMAN_REVIEW",
+        "baseTier": "CAUTION",
+        "isOverride": true,
+        "triggers": [
+          {
+            "type": "HIGH_FAIRNESS_RISK",
+            "label": "High Fairness / Bias Risk",
+            "detail": "Fairness risk (85/100) >= 80 poses ethical/compliance risk requiring human oversight."
+          }
+        ],
+        "summary": "High AI confidence does not guarantee a safe decision. Significant fairness and impact risks require human oversight.",
+        "formulaBreakdown": {
+          "confidenceRisk": 4,
+          "uncertaintyContrib": 1.2,
+          "fairnessContrib": 21.25,
+          "impactContrib": 27,
+          "confidenceContrib": 0.6
+        },
+        "signals": {
+          "confidence": 96,
+          "uncertainty": 4,
+          "fairnessRisk": 85,
+          "potentialImpact": 90,
+          "confidenceRisk": 4
+        }
+      },
+      "humanReview": null
+    },
+    {
+      "id": "aud-1787334767029-352",
+      "timestamp": "2026-08-21T17:52:47.029Z",
+      "domain": "Finance",
+      "description": "Evaluate commercial loan application for small business credit line expansion.",
+      "aiRecommendation": "Reject loan application due to predicted default risk score exceeding cutoff threshold.",
+      "signals": {
+        "confidence": 96,
+        "uncertainty": 4,
+        "fairnessRisk": 85,
+        "potentialImpact": 90
+      },
+      "evaluation": {
+        "riskScore": 50,
+        "rawScore": 50.050000000000004,
+        "tier": "HUMAN_REVIEW",
+        "baseTier": "CAUTION",
+        "isOverride": true,
+        "triggers": [
+          {
+            "type": "HIGH_FAIRNESS_RISK",
+            "label": "High Fairness / Bias Risk",
+            "detail": "Fairness risk (85/100) >= 80 poses ethical/compliance risk requiring human oversight."
+          }
+        ],
+        "summary": "High AI confidence does not guarantee a safe decision. Significant fairness and impact risks require human oversight.",
+        "formulaBreakdown": {
+          "confidenceRisk": 4,
+          "uncertaintyContrib": 1.2,
+          "fairnessContrib": 21.25,
+          "impactContrib": 27,
+          "confidenceContrib": 0.6
+        },
+        "signals": {
+          "confidence": 96,
+          "uncertainty": 4,
+          "fairnessRisk": 85,
+          "potentialImpact": 90,
+          "confidenceRisk": 4
+        }
+      },
+      "humanReview": null
+    },
+    {
+      "id": "aud-1787334764603-668",
+      "timestamp": "2026-08-21T17:52:44.603Z",
+      "domain": "Finance",
+      "description": "Evaluate commercial loan application for small business credit line expansion.",
+      "aiRecommendation": "Reject loan application due to predicted default risk score exceeding cutoff threshold.",
+      "signals": {
+        "confidence": 96,
+        "uncertainty": 4,
+        "fairnessRisk": 85,
+        "potentialImpact": 90
+      },
+      "evaluation": {
+        "riskScore": 50,
+        "rawScore": 50.050000000000004,
+        "tier": "HUMAN_REVIEW",
+        "baseTier": "CAUTION",
+        "isOverride": true,
+        "triggers": [
+          {
+            "type": "HIGH_FAIRNESS_RISK",
+            "label": "High Fairness / Bias Risk",
+            "detail": "Fairness risk (85/100) >= 80 poses ethical/compliance risk requiring human oversight."
+          }
+        ],
+        "summary": "High AI confidence does not guarantee a safe decision. Significant fairness and impact risks require human oversight.",
+        "formulaBreakdown": {
+          "confidenceRisk": 4,
+          "uncertaintyContrib": 1.2,
+          "fairnessContrib": 21.25,
+          "impactContrib": 27,
+          "confidenceContrib": 0.6
+        },
+        "signals": {
+          "confidence": 96,
+          "uncertainty": 4,
+          "fairnessRisk": 85,
+          "potentialImpact": 90,
+          "confidenceRisk": 4
+        }
+      },
+      "humanReview": null
+    },
+    {
+      "id": "aud-1787334764602-0",
+      "timestamp": "2026-08-21T17:52:44.602Z",
+      "domain": "Finance",
+      "description": "Evaluate commercial loan application for small business credit line expansion.",
+      "aiRecommendation": "Reject loan application due to predicted default risk score exceeding cutoff threshold.",
+      "signals": {
+        "confidence": 96,
+        "uncertainty": 4,
+        "fairnessRisk": 85,
+        "potentialImpact": 90
+      },
+      "evaluation": {
+        "riskScore": 50,
+        "rawScore": 50.050000000000004,
+        "tier": "HUMAN_REVIEW",
+        "baseTier": "CAUTION",
+        "isOverride": true,
+        "triggers": [
+          {
+            "type": "HIGH_FAIRNESS_RISK",
+            "label": "High Fairness / Bias Risk",
+            "detail": "Fairness risk (85/100) >= 80 poses ethical/compliance risk requiring human oversight."
+          }
+        ],
+        "summary": "High AI confidence does not guarantee a safe decision. Significant fairness and impact risks require human oversight.",
+        "formulaBreakdown": {
+          "confidenceRisk": 4,
+          "uncertaintyContrib": 1.2,
+          "fairnessContrib": 21.25,
+          "impactContrib": 27,
+          "confidenceContrib": 0.6
+        },
+        "signals": {
+          "confidence": 96,
+          "uncertainty": 4,
+          "fairnessRisk": 85,
+          "potentialImpact": 90,
+          "confidenceRisk": 4
+        }
+      },
+      "humanReview": null
+    },
+    {
+      "id": "aud-1787334756476-811",
+      "timestamp": "2026-08-21T17:52:36.476Z",
+      "domain": "Finance",
+      "description": "Evaluate commercial loan application for small business credit line expansion.",
+      "aiRecommendation": "Reject loan application due to predicted default risk score exceeding cutoff threshold.",
+      "signals": {
+        "confidence": 96,
+        "uncertainty": 4,
+        "fairnessRisk": 85,
+        "potentialImpact": 90
+      },
+      "evaluation": {
+        "riskScore": 50,
+        "rawScore": 50.050000000000004,
+        "tier": "HUMAN_REVIEW",
+        "baseTier": "CAUTION",
+        "isOverride": true,
+        "triggers": [
+          {
+            "type": "HIGH_FAIRNESS_RISK",
+            "label": "High Fairness / Bias Risk",
+            "detail": "Fairness risk (85/100) >= 80 poses ethical/compliance risk requiring human oversight."
+          }
+        ],
+        "summary": "High AI confidence does not guarantee a safe decision. Significant fairness and impact risks require human oversight.",
+        "formulaBreakdown": {
+          "confidenceRisk": 4,
+          "uncertaintyContrib": 1.2,
+          "fairnessContrib": 21.25,
+          "impactContrib": 27,
+          "confidenceContrib": 0.6
+        },
+        "signals": {
+          "confidence": 96,
+          "uncertainty": 4,
+          "fairnessRisk": 85,
+          "potentialImpact": 90,
+          "confidenceRisk": 4
+        }
+      },
+      "humanReview": null
+    },
+    {
+      "id": "aud-1787334756474-613",
+      "timestamp": "2026-08-21T17:52:36.474Z",
+      "domain": "Finance",
+      "description": "Evaluate commercial loan application for small business credit line expansion.",
+      "aiRecommendation": "Reject loan application due to predicted default risk score exceeding cutoff threshold.",
+      "signals": {
+        "confidence": 96,
+        "uncertainty": 4,
+        "fairnessRisk": 85,
+        "potentialImpact": 90
+      },
+      "evaluation": {
+        "riskScore": 50,
+        "rawScore": 50.050000000000004,
+        "tier": "HUMAN_REVIEW",
+        "baseTier": "CAUTION",
+        "isOverride": true,
+        "triggers": [
+          {
+            "type": "HIGH_FAIRNESS_RISK",
+            "label": "High Fairness / Bias Risk",
+            "detail": "Fairness risk (85/100) >= 80 poses ethical/compliance risk requiring human oversight."
+          }
+        ],
+        "summary": "High AI confidence does not guarantee a safe decision. Significant fairness and impact risks require human oversight.",
+        "formulaBreakdown": {
+          "confidenceRisk": 4,
+          "uncertaintyContrib": 1.2,
+          "fairnessContrib": 21.25,
+          "impactContrib": 27,
+          "confidenceContrib": 0.6
+        },
+        "signals": {
+          "confidence": 96,
+          "uncertainty": 4,
+          "fairnessRisk": 85,
+          "potentialImpact": 90,
+          "confidenceRisk": 4
+        }
+      },
+      "humanReview": null
+    },
+    {
+      "id": "aud-1787334749024-786",
+      "timestamp": "2026-08-21T17:52:29.024Z",
+      "domain": "Finance",
+      "description": "Evaluate commercial loan application for small business credit line expansion.",
+      "aiRecommendation": "Reject loan application due to predicted default risk score exceeding cutoff threshold.",
+      "signals": {
+        "confidence": 96,
+        "uncertainty": 4,
+        "fairnessRisk": 85,
+        "potentialImpact": 90
+      },
+      "evaluation": {
+        "riskScore": 50,
+        "rawScore": 50.050000000000004,
+        "tier": "HUMAN_REVIEW",
+        "baseTier": "CAUTION",
+        "isOverride": true,
+        "triggers": [
+          {
+            "type": "HIGH_FAIRNESS_RISK",
+            "label": "High Fairness / Bias Risk",
+            "detail": "Fairness risk (85/100) >= 80 poses ethical/compliance risk requiring human oversight."
+          }
+        ],
+        "summary": "High AI confidence does not guarantee a safe decision. Significant fairness and impact risks require human oversight.",
+        "formulaBreakdown": {
+          "confidenceRisk": 4,
+          "uncertaintyContrib": 1.2,
+          "fairnessContrib": 21.25,
+          "impactContrib": 27,
+          "confidenceContrib": 0.6
+        },
+        "signals": {
+          "confidence": 96,
+          "uncertainty": 4,
+          "fairnessRisk": 85,
+          "potentialImpact": 90,
+          "confidenceRisk": 4
+        }
+      },
+      "humanReview": null
+    },
+    {
+      "id": "aud-1787334749023-450",
+      "timestamp": "2026-08-21T17:52:29.023Z",
+      "domain": "Finance",
+      "description": "Evaluate commercial loan application for small business credit line expansion.",
+      "aiRecommendation": "Reject loan application due to predicted default risk score exceeding cutoff threshold.",
+      "signals": {
+        "confidence": 96,
+        "uncertainty": 4,
+        "fairnessRisk": 85,
+        "potentialImpact": 90
+      },
+      "evaluation": {
+        "riskScore": 50,
+        "rawScore": 50.050000000000004,
+        "tier": "HUMAN_REVIEW",
+        "baseTier": "CAUTION",
+        "isOverride": true,
+        "triggers": [
+          {
+            "type": "HIGH_FAIRNESS_RISK",
+            "label": "High Fairness / Bias Risk",
+            "detail": "Fairness risk (85/100) >= 80 poses ethical/compliance risk requiring human oversight."
+          }
+        ],
+        "summary": "High AI confidence does not guarantee a safe decision. Significant fairness and impact risks require human oversight.",
+        "formulaBreakdown": {
+          "confidenceRisk": 4,
+          "uncertaintyContrib": 1.2,
+          "fairnessContrib": 21.25,
+          "impactContrib": 27,
+          "confidenceContrib": 0.6
+        },
+        "signals": {
+          "confidence": 96,
+          "uncertainty": 4,
+          "fairnessRisk": 85,
+          "potentialImpact": 90,
+          "confidenceRisk": 4
+        }
+      },
+      "humanReview": null
+    },
+    {
+      "id": "aud-1787334606391-390",
+      "timestamp": "2026-08-21T17:50:06.391Z",
+      "domain": "Finance",
+      "description": "Evaluate commercial loan application for small business expansion credit facility.",
+      "aiRecommendation": "Reject loan application due to predicted default risk score exceeding cutoff threshold.",
+      "signals": {
+        "confidence": 96,
+        "uncertainty": 4,
+        "fairnessRisk": 85,
+        "potentialImpact": 90
+      },
+      "evaluation": {
+        "riskScore": 50,
+        "rawScore": 50.050000000000004,
+        "tier": "HUMAN_REVIEW",
+        "baseTier": "CAUTION",
+        "isOverride": true,
+        "triggers": [
+          {
+            "type": "HIGH_FAIRNESS_RISK",
+            "label": "High Fairness / Bias Risk",
+            "detail": "Fairness risk (85/100) >= 80 poses ethical/compliance risk requiring human oversight."
+          }
+        ],
+        "summary": "High AI confidence does not guarantee a safe decision. Significant fairness and impact risks require human oversight.",
+        "formulaBreakdown": {
+          "confidenceRisk": 4,
+          "uncertaintyContrib": 1.2,
+          "fairnessContrib": 21.25,
+          "impactContrib": 27,
+          "confidenceContrib": 0.6
+        },
+        "signals": {
+          "confidence": 96,
+          "uncertainty": 4,
+          "fairnessRisk": 85,
+          "potentialImpact": 90,
+          "confidenceRisk": 4
+        }
+      },
+      "humanReview": {
+        "status": "OVERRIDDEN",
+        "reviewer": "Dr. Alex Vance (Senior Governance Officer)",
+        "notes": "Overriding automated decision. Evaluated mitigating risk factors.",
+        "timestamp": "2026-08-21T17:51:04.310Z"
+      }
+    },
+    {
+      "id": "aud-101",
+      "timestamp": "2026-08-21T13:32:47.969Z",
+      "domain": "E-commerce",
+      "description": "Automatically issue a $15 promotional credit refund to a loyal customer for a delayed package delivery.",
+      "aiRecommendation": "Approve instant $15 store credit credit memo and send automated apology email.",
+      "signals": {
+        "confidence": 98,
+        "uncertainty": 2,
+        "fairnessRisk": 5,
+        "potentialImpact": 10
+      },
+      "evaluation": {
+        "riskScore": 6,
+        "tier": "AI_DECISION",
+        "isOverride": false,
+        "summary": "Risk score 6/100. Low risk signals allow safe automatic execution."
+      },
+      "humanReview": null
+    },
+    {
+      "id": "aud-102",
+      "timestamp": "2026-08-21T15:02:47.969Z",
+      "domain": "Healthcare",
+      "description": "Classify pulmonary nodule suspicion level from chest CT scan and recommend treatment protocol.",
+      "aiRecommendation": "Classify nodule as Stage II indeterminate risk; recommend follow-up scan in 6 months.",
+      "signals": {
+        "confidence": 61,
+        "uncertainty": 45,
+        "fairnessRisk": 10,
+        "potentialImpact": 90
+      },
+      "evaluation": {
+        "riskScore": 60,
+        "tier": "HUMAN_REVIEW",
+        "isOverride": true,
+        "summary": "High impact decision in Healthcare domain requires human sign-off regardless of model confidence."
+      },
+      "humanReview": {
+        "status": "APPROVED",
+        "reviewer": "Dr. Sarah Lin (Pulmonology Specialist)",
+        "timestamp": "2026-08-21T15:32:47.969Z",
+        "notes": "Reviewed CT scan slices 14-22. Concur with recommendation for 6-month CT follow-up."
+      }
+    },
+    {
+      "id": "aud-103",
+      "timestamp": "2026-08-21T16:32:47.969Z",
+      "domain": "Finance",
+      "description": "Evaluate commercial loan application for small business expansion credit facility.",
+      "aiRecommendation": "Reject loan application due to predicted default risk score exceeding cutoff threshold.",
+      "signals": {
+        "confidence": 96,
+        "uncertainty": 4,
+        "fairnessRisk": 85,
+        "potentialImpact": 90
+      },
+      "evaluation": {
+        "riskScore": 50,
+        "tier": "HUMAN_REVIEW",
+        "isOverride": true,
+        "summary": "High AI confidence does not guarantee a safe decision. Significant fairness and impact risks require human oversight."
+      },
+      "humanReview": {
+        "status": "OVERRIDDEN",
+        "reviewer": "Marcus Vance (Senior Credit Committee Chair)",
+        "timestamp": "2026-08-21T17:02:47.969Z",
+        "notes": "Overrode AI rejection. Applicant provided audited cash flow collateral documentation mitigating zip code bias in automated model."
+      }
+    }
+  ],
+  "lastUpdated": "2026-08-21T19:13:18.538Z"
+}
