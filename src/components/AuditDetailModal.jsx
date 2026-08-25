@@ -12,7 +12,7 @@ export default function AuditDetailModal({ record, onClose }) {
   return (
     <div className="fixed inset-0 z-50 bg-[#04070a]/80 backdrop-blur-md flex items-center justify-center p-4 overflow-y-auto animate-fadeIn">
       <div className="cmd-card-emerald border border-emerald-500/40 rounded-2xl max-w-3xl w-full p-6 lg:p-8 shadow-2xl space-y-6 relative max-h-[90vh] overflow-y-auto">
-        
+
         {/* Modal Header */}
         <div className="flex items-center justify-between border-b border-emerald-950/80 pb-4">
           <div className="flex items-center gap-3.5">
@@ -27,7 +27,7 @@ export default function AuditDetailModal({ record, onClose }) {
                 </span>
               </div>
               <h2 className="text-xl font-extrabold text-white tracking-tight mt-0.5 font-mono uppercase">
-                Audit Record Dossier
+                Audit Record Dossiers
               </h2>
             </div>
           </div>
@@ -124,10 +124,9 @@ export default function AuditDetailModal({ record, onClose }) {
             <div className="space-y-2 text-xs font-mono">
               <div className="flex items-center gap-2">
                 <span className="text-slate-400">Review Decision:</span>
-                <span className={`font-bold px-2.5 py-0.5 rounded text-[11px] border ${
-                  humanReview.status === 'APPROVED' ? 'bg-emerald-950 text-emerald-400 border-emerald-800' :
-                  humanReview.status === 'OVERRIDDEN' ? 'bg-purple-950 text-purple-300 border-purple-800' : 'bg-rose-950 text-rose-400 border-rose-900'
-                }`}>
+                <span className={`font-bold px-2.5 py-0.5 rounded text-[11px] border ${humanReview.status === 'APPROVED' ? 'bg-emerald-950 text-emerald-400 border-emerald-800' :
+                    humanReview.status === 'OVERRIDDEN' ? 'bg-purple-950 text-purple-300 border-purple-800' : 'bg-rose-950 text-rose-400 border-rose-900'
+                  }`}>
                   {humanReview.status}
                 </span>
               </div>
