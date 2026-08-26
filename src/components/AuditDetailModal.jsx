@@ -27,7 +27,7 @@ export default function AuditDetailModal({ record, onClose }) {
                 </span>
               </div>
               <h2 className="text-xl font-extrabold text-white tracking-tight mt-0.5 font-mono uppercase">
-                Audit Record Dossiers
+                Audit Record Dossiers-
               </h2>
             </div>
           </div>
@@ -125,7 +125,7 @@ export default function AuditDetailModal({ record, onClose }) {
               <div className="flex items-center gap-2">
                 <span className="text-slate-400">Review Decision:</span>
                 <span className={`font-bold px-2.5 py-0.5 rounded text-[11px] border ${humanReview.status === 'APPROVED' ? 'bg-emerald-950 text-emerald-400 border-emerald-800' :
-                    humanReview.status === 'OVERRIDDEN' ? 'bg-purple-950 text-purple-300 border-purple-800' : 'bg-rose-950 text-rose-400 border-rose-900'
+                  humanReview.status === 'OVERRIDDEN' ? 'bg-purple-950 text-purple-300 border-purple-800' : 'bg-rose-950 text-rose-400 border-rose-900'
                   }`}>
                   {humanReview.status}
                 </span>
